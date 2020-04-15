@@ -1,5 +1,5 @@
 #!/bin/sh
-git clone https://raw.githubusercontent.com/MichMich/MagicMirror
+git clone https://github.com/MichMich/MagicMirror
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 apt-get install -y nodejs
 git clone https://github.com/MichMich/MagicMirror /home/pi/
