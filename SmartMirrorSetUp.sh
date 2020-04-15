@@ -1,5 +1,5 @@
 #!/bin/sh
-git clone https://github.com/MichMich/MagicMirror
+bash -c "$(curl -sL https://raw.githubusercontent.com/sdetweil/MagicMirror_scripts/master/raspberry.sh)"
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 apt-get install -y nodejs
 git clone https://github.com/MichMich/MagicMirror /home/pi/
