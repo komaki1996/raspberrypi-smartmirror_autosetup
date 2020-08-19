@@ -5,5 +5,6 @@ apt-get install -y nodejs
 git clone https://github.com/MichMich/MagicMirror $HOME/MagicMirror
 cp $HOME/MagicMirror/config/config.js.sample $HOME/MagicMirror/config/config.js
 chown -R $USER:$USER $HOME/MagicMirror
+apt install npm
 npm install --prefix own -R $USER:$USER own -R $USER:$USER $HOME/MagicMirror
 npm start --prefix $HOME/MagicMirror/
